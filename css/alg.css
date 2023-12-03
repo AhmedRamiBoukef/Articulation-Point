@@ -1,10 +1,14 @@
-body
-{
-  background-color:#36465d;
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 h1
 {
-  color: #f1982e;
+  color: white;
+  padding: 10px 0;
+  background: #000;
   text-align: center;
 }
 .data-container
